@@ -1,7 +1,7 @@
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-import numpy as np
+import pandas as pd # type: ignore
+import seaborn as sns # type: ignore
+import matplotlib.pyplot as plt # type: ignore
+import numpy as np # type: ignore
 
 # 1. Importar os dados de 'medical_examination.csv' e atribuir ao df
 df = pd.read_csv('medical_examination.csv')
